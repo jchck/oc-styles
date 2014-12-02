@@ -1,0 +1,127 @@
+// .gform_wrapper.gf_browser_chrome .gfield_checkbox li input[type=checkbox], .gform_wrapper.gf_browser_chrome .gfield_radio li input[type=radio], .gform_wrapper.gf_browser_chrome .gfield_checkbox li input
+
+// .gform_wrapper{
+//   input[type=radio]{
+//     margin-left: 5px;
+//   }
+// } 
+.gform_wrapper{
+  ul{
+    padding-left: 0;
+  }
+}
+.gform_wrapper li {
+  .form-group();
+  list-style: none;
+}
+.gform_wrapper form {
+  margin-bottom: 0;
+}
+.gform_wrapper .gfield_required {
+  padding-left: 1px;
+  color: @state-danger-text;
+}
+.ginput_container input,
+.ginput_container select,
+.ginput_container textarea {
+  .form-control();
+}
+.ginput_container textarea {
+  height: auto;
+}
+.gform_button {
+  .btn();
+  .btn-primary();
+}
+.gform_wrapper .gfield_error {
+  .gfield_label {
+    color: @state-danger-text;
+  }
+  input,
+  select,
+  textarea {
+    border-color: @alert-danger-border;
+    background-color: @alert-danger-bg;
+    color: @alert-danger-text;
+    .form-control-focus(@alert-danger-text);
+  }
+}
+.validation_error {
+  .alert();
+  .alert-danger();
+}
+#gforms_confirmation_message {
+  .alert();
+  .alert-success();
+}
+
+// .ginput_complex{
+//   .ginput_left{
+//     width: 48%;
+//     float: left;
+//     margin-right: 20px;
+//       input,
+//       label{
+//         width: 95%;
+//       }
+//   }
+
+//   .ginput_right{
+//     width: 48%;
+//     float: left;
+//       input,
+//       label{
+//         width: 95%;
+//       }
+//   }
+
+//   .ginput_full{
+//     width: 95%;
+//       input,
+//       label{
+//         width: 98%;
+//       }
+//   }
+//   .clearfix();
+// }
+
+// .ginput_container input,
+// .ginput_container textarea{
+//     width: 96% !important;
+// }
+
+// .ginput_container select{
+//   width: 92% !important;
+// }
+
+.ginput_container input[type=radio],
+.ginput_container input[type=checkbox]{
+  height: inherit;
+  width: inherit !important;
+  display: inline-block;
+}
+
+.gfield_radio{
+  label{
+    padding-left: 10px;
+  }
+}
+
+.gfield_checkbox{
+  label{
+    padding-left: 10px;
+  }
+}
+
+.ginput_complex{
+  .make-row();
+
+  .ginput_full{
+    .make-sm-column(12);
+  }
+
+    .ginput_right,
+    .ginput_left{
+      .make-sm-column(6);
+    }
+}
