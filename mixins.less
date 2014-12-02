@@ -45,3 +45,71 @@
 	background-position: 0 100%;
 	background-image: linear-gradient(left, @body-bg 0%, @color-mid 50%, @body-bg 100%);
 }
+
+/**
+	Call to Action with Pop
+**/
+.cta-pop() {
+  //background: @green2;
+  //border-color: @green1;
+  border-style: solid;
+  border-width: 10px;
+  .ease-in-out(0.3s);
+
+  a,
+  p,
+  h3,
+  h4,
+  h5,
+  h6{
+    text-align: center;
+    .ease-in-out(0.3s);
+  }
+
+  a{
+    //color: black;
+  }
+
+  &:hover{
+    //background: @green1-light;
+    //border-color: @green2-light;
+    text-decoration: none;
+
+      a,
+      p,
+      h3,
+      h4,
+      h5{
+        //color: @text-color;
+      }
+  }
+}
+
+.cta-pop-default,
+.cta-pop-primary{
+	background: @brand-primary;
+	border-color: darken(@brand-primary, 15%);
+
+	a,
+	p,
+	h3,
+	h4,
+	h5,
+	h6{
+		color: @gray-lighter;
+	}
+
+	&:hover{
+		background: darken(@brand-primary, 15%);
+		border-color: @brand-primary;
+
+		a,
+		p,
+		h3,
+		h4,
+		h5,
+		h6{
+			color: @text-color;
+		}
+	}
+}
