@@ -85,12 +85,14 @@
   }
 }
 
-.cta-primary(){
-	background: @brand-primary;
-	border-color: darken(@brand-primary, 15%);
+.cta-variant(@color){
+	background: @color;
+	border-color: darken(@color, 15%);
 
 	a,
 	p,
+	h1,
+	h2,
 	h3,
 	h4,
 	h5,
@@ -99,11 +101,13 @@
 	}
 
 	&:hover{
-		background: darken(@brand-primary, 15%);
-		border-color: @brand-primary;
+		background: darken(@color, 15%);
+		border-color: @color;
 
 		a,
 		p,
+		h1,
+		h2,
 		h3,
 		h4,
 		h5,
@@ -112,3 +116,9 @@
 		}
 	}
 }
+
+.cta-primary(@brand-primary);
+.cta-success(@brand-success);
+.cta-info(@brand-info);
+.cta-warning(@brand-info);
+.cta-danger(@brand-danger);
