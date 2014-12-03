@@ -29,6 +29,7 @@ For adding an opacity layer after a background image
 		z-index: @z-basement;
 	}
 }
+```
 
 ## Border Bottom Gradient
 
@@ -72,7 +73,7 @@ Some will say these have too many hover effects on them…and they may be right
 ```
 
 and
-
+```
 .cta-primary{
 	.cta-variant(@brand-primary);
 }
