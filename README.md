@@ -20,6 +20,7 @@ Mixins
 - [Easing](features.md#easing)
 - [Background Opacity](features.md#background-opacity)
 - [Border Bottom Gradient](features.md#border-bottom-gradient)
+- [Calls to Action](features.md#calls-to-action)
 
 
 ## Contributing 

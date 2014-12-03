@@ -41,4 +41,57 @@ This will create a 1px tall gradient below an element
 	background-position: 0 100%;
 	background-image: linear-gradient(left, @body-bg 0%, @color-mid 50%, @body-bg 100%);
 }
-``` 
+```
+
+## Calls to Action
+
+Some will say these have too many hover effects on them…and they may be right
+
+```
+.cta-pop() {
+  border-style: solid;
+  border-width: 10px;
+  .ease-in-out(0.3s);
+
+  a,
+  p,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6{
+    text-align: center;
+    .ease-in-out(0.3s);
+  }
+
+  &:hover{
+    text-decoration: none;
+  }
+}
+```
+
+and
+
+.cta-primary{
+	.cta-variant(@brand-primary);
+}
+
+.cta-success{
+	.cta-variant(@brand-success);
+}
+
+.cta-info{
+	.cta-variant(@brand-info);
+}
+
+.cta-warning{
+	.cta-variant(@brand-warning);
+}
+
+.cta-danger{
+	.cta-variant(@brand-danger);
+}
+```
+
+Be sure to include a color variant for your call to action 
