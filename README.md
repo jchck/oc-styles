@@ -15,7 +15,10 @@ Version 0.5.0
 
 ## [Features](features.md)
 
-- [Easing](features.md#easing) via mixin
+Mixins
+
+- [Easing](features.md#easing)
+- [Background Opacity](features.md#background-opacity)
 
 
 ## Contributing 
