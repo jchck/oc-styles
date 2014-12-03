@@ -13,9 +13,9 @@ Version 0.5.0
 - Via [Download](https://github.com/jaechick/Our-Collective-Base-Styles/archive/master.zip)
 - Via copy/paste `are we not civilized?`
 
-## Features
+## [Features](features.md)
 
-- Easing via mixin
+- [Easing](features.md#easing) via mixin
 
 
 ## Contributing 
