@@ -14,7 +14,7 @@ We `ease`, `ease-in`, `ease-out`, `ease-in-out`
 
 ## Background Opacity
 
-For adding an opacity layer after an image
+For adding an opacity layer after a background image
 
 ```
 .opacity-bg(@opacity) {
@@ -29,3 +29,16 @@ For adding an opacity layer after an image
 		z-index: @z-basement;
 	}
 }
+
+## Border Bottom Gradient
+
+This will create a 1px tall gradient below an element
+
+```
+.border-bottom-gradient(@color-mid) {
+	background-size: 100% 1px;
+	background-repeat: no-repeat;
+	background-position: 0 100%;
+	background-image: linear-gradient(left, @body-bg 0%, @color-mid 50%, @body-bg 100%);
+}
+``` 
