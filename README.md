@@ -15,12 +15,17 @@ Version 0.5.0
 
 ## [Features](features.md)
 
-Mixins
+**Variables**
+- Z-index (to avoid World War Z-Index)
+
+**Mixins**
 
 - [Easing](features.md#easing)
 - [Background Opacity](features.md#background-opacity)
 - [Border Bottom Gradient](features.md#border-bottom-gradient)
 - [Calls to Action](features.md#calls-to-action)
+
+**Base Styles & OC Resets**
 
 
 ## Contributing 
