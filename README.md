@@ -13,6 +13,11 @@ Version 0.5.0
 - Via [Download](https://github.com/jaechick/Our-Collective-Base-Styles/archive/master.zip)
 - Via copy/paste `are we not civilized?`
 
+## Features
+
+- Easing via mixin
+
+
 ## Contributing 
 
 Everyone is welcome to contribute to the project. Contributing standards are forthcoming so just sit tight boys n girls.
