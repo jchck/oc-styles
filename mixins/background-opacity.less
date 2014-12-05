@@ -1,0 +1,16 @@
+/**
+	Background Opacity 
+**/
+
+.opacity-bg(@opacity) {
+	&:after{
+		content: "";
+		opacity: @opacity;
+		top: 0;
+		right: 0;
+		bottom: 0;
+		left: 0;
+		position: absolute;
+		z-index: @z-basement;
+	}
+}
