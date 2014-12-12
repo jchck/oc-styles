@@ -1,0 +1,22 @@
+{
+  "name": "oc-base-styles",
+  "version": "1.0.0",
+  "description": "We use this on top of [Bootstrap](http://getbootstrap.com/) and with the [Roots starter theme](http://roots.io/starter-theme/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jaechick@github.com/jaechick/Our-Collective-Base-Styles.git"
+  },
+  "author": "Justin Chick",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jaechick/Our-Collective-Base-Styles/issues"
+  },
+  "homepage": "https://github.com/jaechick/Our-Collective-Base-Styles",
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
