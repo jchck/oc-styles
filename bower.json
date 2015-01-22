@@ -1,0 +1,25 @@
+{
+  "name": "oc-styles",
+  "version": "1.0.0",
+  "homepage": "https://github.com/our-collective/oc-styles",
+  "authors": [
+    "jaechick <hey@justinchick.com>"
+  ],
+  "description": "Our Collective Base Styles",
+  "main": "less/main.less",
+  "keywords": [
+    "less",
+    "css",
+    "styles",
+    "our",
+    "collective"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
