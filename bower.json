@@ -21,8 +21,5 @@
     "bower_components",
     "test",
     "tests"
-  ],
-  "dependencies": {
-    "oc-kerning-obession": "https://github.com/our-collective/kerning-obsession.git#4eb69e75d8871122a5aee022402072f09fe2d6fa"
-  }
+  ]
 }
